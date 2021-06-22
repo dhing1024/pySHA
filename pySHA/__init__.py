@@ -1,0 +1,12 @@
+
+from . import sha1, sha224, sha256, sha384, sha512, sha512_224, sha512_256
+
+SHA1 = sha1.SHA1
+SHA224 = sha224.SHA224
+SHA256 = sha256.SHA256
+SHA384 = sha384.SHA384
+SHA512 = sha512.SHA512
+SHA512_224 = sha512_224.SHA512_224
+SHA512_256 = sha512_256.SHA512_256
+
+__version__ = "1.0.0"
