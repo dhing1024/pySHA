@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument('--algorithm', '-a', 
                         type=str, 
                         choices=['1', '224', '256', '384', '512', '512224', '512256'], 
-                        help='The specific SHA hash function. Currently only supports SHA-1 and SHA-256', 
+                        help='The specific SHA hash function. Supports SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256', 
                         required=True)
     parser.add_argument('--verbosity', '-v', 
                         type=int, 
